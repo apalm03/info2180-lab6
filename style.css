@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Spicy+Rice');
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+
 
 #pagename{
   background-color:#50AEE1;
@@ -8,7 +11,7 @@
 
 #title{
   color : white;
-  font-family:'Spicy Rice', cursive ;
+font-family: 'Acme', sans-serif;
   margin-left: 20px;
 }
 
@@ -16,7 +19,7 @@
 #main{
   background-color:  #f2f2f2;
   margin-top: 5px;
-  
+  padding-bottom: 150px
 
 }
 
@@ -28,12 +31,31 @@
   background-color:#008CBA;
   color : white;
   transition-duration: 0.2s;
-  border-color: black;
+  border-color: white;
   font-weight: bold;
+  
+}
+#search-button{
+  padding: 10px;
+  font-style: italic;
+  font-family: 'Acme', sans-serif; 
+  border-radius: 10%;
 }
 
 
 #whole{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+}
+
+
+
+
+
+#search-bar{
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size:15px;
 }
