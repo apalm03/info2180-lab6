@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Spicy+Rice');
+
+#pagename{
+  background-color:#50AEE1;
+  padding: 10px;
+}
+
+
+#title{
+  color : white;
+  font-size: 3em;
+  font-family:'Spicy Rice', cursive ;
+}
+
+
+#main{
+  background-color: #BBC2C6;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.defsearch{
+  padding: 20px;
+}
+
+#search-button:hover{
+  background-color:#008CBA;
+  color : white;
+  transition-duration: 0.2s;
+  border-color: black;
+  font-weight: bold;
+}
