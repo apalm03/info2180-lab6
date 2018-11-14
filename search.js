@@ -62,8 +62,8 @@ function search(){
 			
 		};
 		
-		allRequest.open('GET',url1,true);
-		allRequest.send();
+		allXHR.open('GET',url1,true);
+		allXHR.send();
 	};
 	
 
