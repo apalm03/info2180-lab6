@@ -28,18 +28,32 @@ font-family: 'Acme', sans-serif;
 }
 
 #search-button:hover{
-  background-color:#008CBA;
-  color : white;
+  background-color:white;
+  color: black;
   transition-duration: 0.2s;
-  border-color: white;
+  border-color: #50AEE1;
+  font-weight: bold;
+  
+  
+}
+
+#all-def:hover{
+  background-color:white;
+  color: black;
+  transition-duration: 0.2s;
+  border-color: #50AEE1;
   font-weight: bold;
   
 }
-#search-button{
+
+#search-button,#all-def{
   padding: 10px;
   font-style: italic;
   font-family: 'Acme', sans-serif; 
-  border-radius: 10%;
+  border-radius: 5%;
+  background-color: #008CBA;
+  color : white;
+  margin-left: 5px;
 }
 
 
@@ -56,6 +70,5 @@ font-family: 'Acme', sans-serif;
 #search-bar{
   padding: 10px;
   border-radius: 5px;
-  margin-right: 10px;
   font-size:15px;
 }
